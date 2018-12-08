@@ -1,0 +1,85 @@
+<DOCTYPE  HTML>
+
+<html long="es">
+ <head>
+   <meta charset=utf-8>
+   <title> Códigos binarios </title>
+ </head>
+ <body bgcolor="black" text="white">
+<center><h1><font color="yellow">Códigos binarios</font></h1></center>
+<p align="justify">
+El código binario permite entender y diseñar sistemas electrónicos digitales. Su sistema de numeración es de vital importancia para la electrónica.
+También existen distintas configuraciones como BDC, ASCII, etc. Los códigos binarios son un arreglo de dos caracteres, 1 y 0.
+Entonces, con sólo estos dos dígitos se pueden representar a todo el conjunto de números. También se pueden realizar operaciones lógicas y aritméticas.
+Incluso se pueden representar números imaginarios y reales. Dicha numeración se puede representar o medir en bits de información.
+Por ejemplo, 8 bits de información permiten representar hasta 2^8 = 256 combinaciones, desde 0 hasta 255.
+Cuando se crea un numero con signo, el bit 7 se usa para representar al signo, 0 en el ultimo bit representaría el + y 1 el menos.
+Por lo tanto un numero con signo de 8 bits, puede representar valores desde -127 hasta +127.<br/>
+<center><img src="SistemaBinario1.2.jpg" "width="400" height="200""></center><br/><br/>
+</p>
+<h2> Para empezar, ¿Que son los códigos binarios? </h2>
+<p align="justify">
+  Un código binario y su sistema de numeración tienen dos características: la posición y el valor que se le asigna a esa posición.
+  Recordarán por ejemplo, cuando aprendíamos los números decimales, que había unidades, decenas, centenas, millares, etc.
+  Entonces de la misma forma, los códigos binarios ó también llamados sistemas de numeración binario, presentan un arreglo similar.<br/>
+
+  Por ejemplo, las posiciones se generan de derecha a izquierda comenzando por el cero. Cada posición representa el exponente de una base 2.
+  Por ejemplo, tome el siguiente numero binario:<br/><br/>
+  <center><img src="CodigoBinario1.3.jpg" "width="400" height="200""></center><br/><br/>
+</p>
+<h2> Importancia del código binario </h2>
+<p align="justify">
+Todos los sistemas electrónicos digitales funcionan bajo el principio del código binario.
+Existen dos posibles estados llamados: verdadero-falso, alto-bajo ó 1-0.
+Estos dos estados son representaciones abstractas de regiones de voltajes específicos.
+Por ejemplo, para los circuitos integrados que operan a 5VDC, un 0 representa un voltaje entre -0.5V y 1.2V.
+Mientras que el 1 es representado por valores entre 2.2 y 5.5V.<br/><br/>
+Las compuertas lógicas utilizan el código binario para poder representar valores en sus entradas y proporcionar resultados.
+Las compuertas lógicas son los bloques con los que están construidos los flip-flops, sumadores, multiplexores, multiplicadores,
+decodificadores, registros (memorias), registros de desplazamiento (módulos de comunicación serial), etc.
+A su vez, estos bloques más complejos forman sistemas como procesadores, memorias, periféricos y unidades de control
+que son el principio de funcionamiento de los microprocesadores y los microcontroladores.<br/><br/>
+<center><img src="Microprocesador.jpg" "width="400" height="200""></center><br/><br/>
+</p>
+<h2> Agrupaciones de los números binarios </h2>
+<p align="justify">
+Los códigos binarios se agrupan para poder ser manejados de una mejor manera.
+Por ejemplo, la cantidad mínima de información que se puede representar en un sistema binario es el bit.
+Pero también existen la agrupación de 4 bits, se llama nibble. Si agrupamos 8 bit o 2 nibble, ya se llama byte y así sucesivamente:<br/><br/>
+</p>
+<h3>BIT</h3>
+<p align="justify">
+Un bit, es la cantidad mínima de información que se puede representar en un sistema digital. Sólo puede valer 0 o 1. Verdadero o Falso.<br/><br/>
+</p>
+<h3>NIBBLE</h3>
+<p align="justify">
+Un nibble es la agrupación de 4 bits. Este puede representar a todas las combinaciones con 4 bits, que son 16 combinaciones posibles.
+</p>
+<h3>BYTE</h3>
+<p align="justify">
+Un byte es la agrupación binaria más común y ocurre cuando se agrupan 8  bits. Un byte es muy importante debido a que al inicio,
+los procesadores eran de 8 bits (hubo incluso procesadores de 4 bits). Por lo tanto, la información o los resultados se
+guardaban en memorias de 8 bits para ser más eficientes. En un byte de información se pueden guardar variables del tipo char.
+El código ascci, es una codificación binaria que puede ser guardada en chars.<br/>
+Para las variables del tipo int, se requieren de entre 2 y 4 bytes dependiendo de la arquitectura de los procesadores.<br/><br/>
+</p>
+<h3>KBYTE</h3>
+<p align="justify">
+Un kbyte es la agrupación de 1000 bytes. Aunque algunos autores incluso mencionan que son 1024 bytes. Dependiendo de la agrupación,
+ambas consideraciones pueden ser igualmente validas.<br/><br/>
+</p>
+<h3>MBYTE</h3>
+<p align="justify">
+Un Mbyte es la agrupación de 1 millón u 8 millones de bits.<br/><br/>
+<h3>KBIT, MBIT Y GBIT</h3>
+<p align="justify">
+El Kbit es distinto al kbyte, en el sentido que representa sólo 1000 bits. Es una métrica utilizada en los protocolos de
+comunicación digital que son seriales. Dado que los datos se transportan uno a la vez, es más recomendable agruparlos en bits,
+en lugar de bytes. Esta medida se utiliza mucho por ejemplo para medir la velocidad del internet.<br/>
+Generalmente pensamos que los kbits son 1000 bytes, pero esto es incorrecto.
+Cuando nuestros planes de internet dicen que tenemos 4GB, pensamos en 4 mil millones de bytes,
+pero en realidad son 4 mil millones de bits.<br/><br/>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/f9b0wwhTmeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</p>
+ </body>
+</html>
